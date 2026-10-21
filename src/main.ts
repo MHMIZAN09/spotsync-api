@@ -21,6 +21,7 @@ async function bootstrap() {
       transform: true,
     })
   )
+  app.enableShutdownHooks();
 
   // swagger setup
 
